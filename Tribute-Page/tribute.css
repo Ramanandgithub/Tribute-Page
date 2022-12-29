@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    content: "";
+    background-color: black;
+    overflow-x: hidden;
+}
+.name{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.name h2{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+.name{
+    color: white;
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pic{
+    width: 100vw;
+    height: 50vh;
+    background-color: white;
+}
+.jobs_pic img{
+    height: 50vh;
+    width: fit-content;
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+}
+.pera{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family:'Times New Roman', Times, serif
+}
+.bio{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info{
+    
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: fit-content;
+    /* background-color: aqua; */
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video img{
+    width: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    margin-left: -280px;
+}
+.info-2{
+    width: 33vw;
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-2 p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: .3px;
+}
+hr{
+    width: 40vw;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+.mention img{
+    width: 18px;
+}
+.mention{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.mention span{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.mention span a{
+    color: dodgerblue;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 22px;
+}
